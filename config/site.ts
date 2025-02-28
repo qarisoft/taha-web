@@ -1,69 +1,65 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "مؤسسة خالد الكبيشي",
+  description: "مؤسسة خالد الكبيشي للمقاولات العامة",
   navItems: [
     {
-      label: "Home",
+      label: "الرئيسية",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "اعمالنا",
       href: "/docs",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
+      label: "عنا",
       href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "الرئيسية",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "اعمالنا",
+      href: "/docs",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "عنا",
+      href: "/about",
     },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+    // {
+    //   label: "Projects",
+    //   href: "/projects",
+    // },
+    // {
+    //   label: "Team",
+    //   href: "/team",
+    // },
+    // {
+    //   label: "Calendar",
+    //   href: "/calendar",
+    // },
+    // {
+    //   label: "Settings",
+    //   href: "/settings",
+    // },
+    // {
+    //   label: "Help & Feedback",
+    //   href: "/help-feedback",
+    // },
+    // {
+    //   label: "Logout",
+    //   href: "/logout",
+    // },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "#",
+    twitter: "#",
+    docs: "#",
+    discord: "#",
+    sponsor: "#",
   },
 };

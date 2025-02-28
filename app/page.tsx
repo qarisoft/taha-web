@@ -9,19 +9,22 @@ import { GithubIcon } from "@/components/icons";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>Make&nbsp;</span>
-        <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
+    <section className=" flex flex-col items-center justify-center gap-4 py-8 md:py-10 h-full  ">
+      <div className="absolute h-screen w-screen top-0 bg-slate-400 opacity-20 bg-[url(../components/images/3.jpg)] bg-cover"></div>
+      <div className="inline-block max-w-xl text-center justify-center  my-auto">
+        {/* <span className={title()}>Make&nbsp;</span> */}
+        <span className={title({ color: "blue" })}>مؤسسة خالد علي حسين الكبيشي</span>
         <br />
+        <br />
+        {/* <br /> */}
         <span className={title()}>
-          websites regardless of your design experience.
+          للمقاولات العامة
         </span>
-        <div className={subtitle({ class: "mt-4" })}>
+        {/* <div className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
-        </div>
+        </div> */}
       </div>
-
+{/* 
       <div className="flex gap-3">
         <Link
           isExternal
@@ -50,7 +53,7 @@ export default function Home() {
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
-      </div>
+      </div> */}
     </section>
   );
 }

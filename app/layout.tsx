@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.ico",
   },
 };
 
@@ -33,8 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning dir="rtl" lang="ar">
       <head />
+
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
@@ -54,8 +55,8 @@ export default function RootLayout({
                 href="https://heroui.com?utm_source=next-app-template"
                 title="heroui.com homepage"
               >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">HeroUI</p>
+                <span className="text-default-600 ps-2">الحقوق محفوضة لدى</span>
+                <p className="text-primary">لمؤسسة خالد علي حسين الكبيشي</p>
               </Link>
             </footer>
           </div>
