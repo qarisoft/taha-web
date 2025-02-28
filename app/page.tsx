@@ -26,7 +26,7 @@ export default function Home() {
             <div className="">
 
             <div className="h-[40rem] rounded-xl bg-white shadow shadow-slate-400 bg-[url(/devices/balance.jpg)] bg-contain bg-no-repeat bg-center" />
-            <div className="dasd">dsadasd asd asd as dasda</div>
+            {/* <div className="dasd">dsadasd asd asd as dasda</div> */}
             </div>
             
             
