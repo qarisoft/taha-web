@@ -16,6 +16,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import Logo from "./icon-logo.png";
+import DarkLogo from "./dark-icon-logo.png";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -56,10 +57,13 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink
-            className="flex justify-start items-center gap-1 md:pe-20"
+            className="flex justify-start items-center gap-1 "
             href="/"
           >
-            <Image alt="da" height={40} src={Logo} width={40} />
+
+
+            <Image alt="da" height={50} src={DarkLogo} width={50} className=" md:me-10  dark:hidden" />
+            <Image alt="da" height={50} src={Logo} width={50} className="     md:me-10 hidden dark:block" />
             {/* <p className="font-bold text-inherit">ACME</p> */}
           </NextLink>
         </NavbarBrand>
