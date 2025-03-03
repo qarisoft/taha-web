@@ -1,6 +1,22 @@
 import { Button } from "@heroui/button";
 import { Card, CardHeader, CardFooter } from "@heroui/card";
-import { Image } from "@heroui/image";
+import Image from "next/image";
+import img1 from "../public/work/1.jpg";
+import img2 from "../public/work/2.jpg";
+import img3 from "../public/work/3.jpg";
+import img4 from "../public/work/4.jpg";
+import img5 from "../public/work/5.jpg";
+import img6 from "../public/work/6.jpg";
+import img7 from "../public/work/7.jpg";
+import img8 from "../public/work/8.jpg";
+import img9 from "../public/work/9.jpg";
+import img10 from "../public/work/10.jpg";
+import img11 from "../public/work/11.jpg";
+import img12 from "../public/work/12.jpg";
+import img13 from "../public/work/13.jpg";
+import img14 from "../public/work/14.jpg";
+import img15 from "../public/work/15.jpg";
+import img16 from "../public/work/16.jpg";
 
 export default function App() {
   return (
@@ -15,10 +31,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/1.jpg"
+          src={img1}
         />
       </Card>
 
@@ -33,10 +49,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/2.jpg"
+          src={img2}
         />
       </Card>
 
@@ -51,10 +67,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/3.jpg"
+          src={img3}
         />
       </Card>
 
@@ -68,10 +84,10 @@ export default function App() {
           <h4 className="text-black font-medium text-2xl">Acme camera</h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card example background"
           className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-          src="/work/4.jpg"
+          src={img4}
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
@@ -98,17 +114,17 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Relaxing app background"
           className="z-0 w-full h-full object-cover"
-          src="/work/16.jpg"
+          src={img5}
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
             <Image
               alt="Breathing app icon"
               className="rounded-full w-10 h-11 bg-black"
-              src="/work/8.jpg"
+              src={img6}
             />
             <div className="flex flex-col">
               <p className="text-tiny text-white/60">Breathing App</p>
@@ -133,10 +149,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/6.jpg"
+          src={img7}
         />
       </Card>
 
@@ -151,10 +167,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/7.jpg"
+          src={img8}
         />
       </Card>
 
@@ -169,10 +185,10 @@ export default function App() {
           </h4>
         </CardHeader>
         <Image
-          removeWrapper
+          // removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/work/8.jpg"
+          src={img9}
         />
       </Card>
     </div>

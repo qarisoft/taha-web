@@ -56,14 +56,21 @@ export const Navbar = () => {
     <HeroUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink
-            className="flex justify-start items-center gap-1 "
-            href="/"
-          >
-
-
-            <Image alt="da" height={50} src={DarkLogo} width={50} className=" md:me-10  dark:hidden" />
-            <Image alt="da" height={50} src={Logo} width={50} className="     md:me-10 hidden dark:block" />
+          <NextLink className="flex justify-start items-center gap-1 " href="/">
+            <Image
+              alt="da"
+              height={50}
+              src={DarkLogo}
+              width={50}
+              className=" md:me-10  dark:hidden"
+            />
+            <Image
+              alt="da"
+              height={50}
+              src={Logo}
+              width={50}
+              className="     md:me-10 hidden dark:block"
+            />
             {/* <p className="font-bold text-inherit">ACME</p> */}
           </NextLink>
         </NavbarBrand>
@@ -73,7 +80,7 @@ export const Navbar = () => {
               <NextLink
                 className={clsx(
                   linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
+                  "data-[active=true]:text-primary data-[active=true]:font-medium"
                 )}
                 color="foreground"
                 href={item.href}
@@ -137,7 +144,7 @@ export const Navbar = () => {
                       ? "danger"
                       : "foreground"
                 }
-                href="#"
+                href={item.href}
                 size="lg"
               >
                 {item.label}
