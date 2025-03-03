@@ -15,7 +15,7 @@ import DarkTitleBgLogo from "@/components/images/black-logo-title.png";
 import Pattern from "@/components/images/pattern.png";
 import { PropsWithChildren } from "react";
 import { Button } from "@heroui/button";
-const basePath = "/taha-web";
+const basePath = "";
 
 export default function Home() {
   return (
