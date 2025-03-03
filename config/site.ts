@@ -10,9 +10,14 @@ export const siteConfig = {
     },
     {
       label: "اعمالنا",
-      href: "/docs",
+      href: "/work",
     },
     {
+      label: "خدماتنا",
+      href: "/services",
+    },
+    {
+
       label: "عنا",
       href: "/about",
     },
@@ -24,7 +29,11 @@ export const siteConfig = {
     },
     {
       label: "اعمالنا",
-      href: "/docs",
+      href: "/work",
+    },
+    {
+      label: "خدماتنا",
+      href: "/services",
     },
     {
       label: "عنا",
