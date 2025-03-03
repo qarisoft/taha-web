@@ -68,7 +68,7 @@ function Devices() {
       <div className="grid auto-rows-min gap-10 md:grid-cols-3 lg:gap-40 lg:px-40 py-5 text-black">
         <Container>
           <div
-            className={`h-[40rem]  bg-[url(${basePath}/devices/balance.jpg)] bg-contain bg-no-repeat bg-center`}
+            className={`h-[40rem]  bg-[url(/devices/balance.jpg)] bg-contain bg-no-repeat bg-center`}
           ></div>
           <h1 className="text-center  text-xl"> Balance Level Device </h1>
           <h1 className="text-center  text-xl"> جهاز ليفل مساحي </h1>
@@ -76,14 +76,14 @@ function Devices() {
 
         <Container>
           <div
-            className={`h-[40rem]  bg-[url(${basePath}/devices/total.jpg)] bg-contain bg-no-repeat bg-center`}
+            className={`h-[40rem]  bg-[url(/devices/total.jpg)] bg-contain bg-no-repeat bg-center`}
           />
           <h1 className="text-center"> Station Total Device </h1>
           <h1 className="text-center  text-xl"> جهاز توتال ستيشن </h1>
         </Container>
         <Container>
           <div
-            className={`h-[40rem]  bg-[url(${basePath}/devices/gps.jpg)] bg-contain bg-no-repeat bg-center`}
+            className={`h-[40rem]  bg-[url(/devices/gps.jpg)] bg-contain bg-no-repeat bg-center`}
           />
           <h1 className="text-center  text-xl"> Gps Device </h1>
           <h1 className="text-center  text-xl"> جهاز حي بي اس </h1>
