@@ -65,7 +65,7 @@ function Devices() {
     
   </div> */}
 
-      <div className="px-20 py-5 mb-10 bg-[#025d5e] text-white rounded w-fit text-2xl lg:text-3xl">
+      <div className="px-10 py-5 mb-10 bg-[#025d5e] text-white rounded rounded-tl-full rounded-bl-full w-fit text-2xl lg:text-3xl me-10">
         <h1>بيان بالاجهزة المساحية لدى المؤسسة</h1>
       </div>
 
