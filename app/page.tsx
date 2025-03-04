@@ -69,7 +69,7 @@ function Devices() {
         <h1>بيان بالاجهزة المساحية لدى المؤسسة</h1>
       </div>
 
-      <div className="grid auto-rows-min gap-10 md:grid-cols-3 lg:gap-40 lg:px-40 py-5 text-black">
+      <div className="grid auto-rows-min p-5 gap-10 md:grid-cols-3 lg:gap-40 lg:px-40  text-black">
         <Container>
           {/* <div
             className={`h-[40rem]  bg-[url(/devices/balance.jpg)] bg-contain bg-no-repeat bg-center`}
