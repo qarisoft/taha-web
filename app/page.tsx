@@ -45,7 +45,7 @@ function Hero() {
 
         <div className="flex flex-col justify-center items-center dark:hidden">
           <Image alt="" height={40} src={DarkBgLogo} width={250} />
-          <Image alt="" height={40} src={DarkTitleBgLogo} width={450} />
+          <Image alt="" height={40} src={DarkTitleBgLogo} width={350} />
         </div>
         <Button className="" variant="solid" color="primary" type="button">
           اعمالنا
@@ -69,19 +69,19 @@ function Devices() {
         <h1>بيان بالاجهزة المساحية لدى المؤسسة</h1>
       </div>
 
-      <div className="grid auto-rows-min p-5 gap-10 md:grid-cols-3 lg:gap-40 lg:px-40  text-black">
+      <div className="h-[30rem] bg-slate-300  flex overflow-scroll  p-5 gap-10  lg:px-40  text-black">
         <Container>
           {/* <div
             className={`h-[40rem]  bg-[url(/devices/balance.jpg)] bg-contain bg-no-repeat bg-center`}
           ></div> */}
           <Image
             src={balance}
-            height={600}
-            width={600}
+            height={200}
+            width={180}
             alt=""
             className="fle my-auto"
           />
-          <div className="">
+          <div className="inline">
             <h1 className="text-center  text-xl"> Balance Level Device </h1>
             <h1 className="text-center  text-xl"> جهاز ليفل مساحي </h1>
           </div>
@@ -91,7 +91,7 @@ function Devices() {
           {/* <div
             className={`h-[40rem]  bg-[url(/devices/total.jpg)] bg-contain bg-no-repeat bg-center`}
           /> */}
-          <Image src={total} height={640} width={640} alt="" />
+          <Image src={total} height={240} width={180} alt="" />
           <div className="">
             <h1 className="text-center"> Station Total Device </h1>
             <h1 className="text-center  text-xl"> جهاز توتال ستيشن </h1>
@@ -101,7 +101,7 @@ function Devices() {
           {/* <div
             className={`h-[40rem]  bg-[url(/devices/gps.jpg)] bg-contain bg-no-repeat bg-center`}
           /> */}
-          <Image src={gps} height={640} width={640} alt="" />
+          <Image src={gps} height={240} width={160} alt="" />
           <div className="">
             <h1 className="text-center  text-xl"> Gps Device </h1>
             <h1 className="text-center  text-xl"> جهاز حي بي اس </h1>
@@ -114,7 +114,7 @@ function Devices() {
 
 function Container({ children }: PropsWithChildren) {
   return (
-    <div className="p-5 rounded-xl bg-white shadow shadow-slate-400 flex flex-col justify-between">
+    <div className="p-5 rounded-xl bg-white shadow shadow-slate-400 flex flex-col items-center  min-w-72 justify-between">
       {children}
     </div>
   );
