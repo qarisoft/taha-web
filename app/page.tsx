@@ -17,6 +17,10 @@ import { PropsWithChildren } from "react";
 import { Button } from "@heroui/button";
 const basePath = "";
 
+import balance from "../public/devices/balance.jpg";
+import total from "../public/devices/total.jpg";
+import gps from "../public/devices/gps.jpg";
+
 export default function Home() {
   return (
     <>
@@ -67,26 +71,41 @@ function Devices() {
 
       <div className="grid auto-rows-min gap-10 md:grid-cols-3 lg:gap-40 lg:px-40 py-5 text-black">
         <Container>
-          <div
+          {/* <div
             className={`h-[40rem]  bg-[url(/devices/balance.jpg)] bg-contain bg-no-repeat bg-center`}
-          ></div>
-          <h1 className="text-center  text-xl"> Balance Level Device </h1>
-          <h1 className="text-center  text-xl"> جهاز ليفل مساحي </h1>
+          ></div> */}
+          <Image
+            src={balance}
+            height={600}
+            width={600}
+            alt=""
+            className="fle my-auto"
+          />
+          <div className="">
+            <h1 className="text-center  text-xl"> Balance Level Device </h1>
+            <h1 className="text-center  text-xl"> جهاز ليفل مساحي </h1>
+          </div>
         </Container>
 
         <Container>
-          <div
+          {/* <div
             className={`h-[40rem]  bg-[url(/devices/total.jpg)] bg-contain bg-no-repeat bg-center`}
-          />
-          <h1 className="text-center"> Station Total Device </h1>
-          <h1 className="text-center  text-xl"> جهاز توتال ستيشن </h1>
+          /> */}
+          <Image src={total} height={640} width={640} alt="" />
+          <div className="">
+            <h1 className="text-center"> Station Total Device </h1>
+            <h1 className="text-center  text-xl"> جهاز توتال ستيشن </h1>
+          </div>
         </Container>
         <Container>
-          <div
+          {/* <div
             className={`h-[40rem]  bg-[url(/devices/gps.jpg)] bg-contain bg-no-repeat bg-center`}
-          />
-          <h1 className="text-center  text-xl"> Gps Device </h1>
-          <h1 className="text-center  text-xl"> جهاز حي بي اس </h1>
+          /> */}
+          <Image src={gps} height={640} width={640} alt="" />
+          <div className="">
+            <h1 className="text-center  text-xl"> Gps Device </h1>
+            <h1 className="text-center  text-xl"> جهاز حي بي اس </h1>
+          </div>
         </Container>
       </div>
     </div>
@@ -95,7 +114,7 @@ function Devices() {
 
 function Container({ children }: PropsWithChildren) {
   return (
-    <div className="p-5 rounded-xl bg-white shadow shadow-slate-400">
+    <div className="p-5 rounded-xl bg-white shadow shadow-slate-400 flex flex-col justify-between">
       {children}
     </div>
   );
