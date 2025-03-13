@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning className="" dir="rtl" lang="ar">
+    <html suppressHydrationWarning className="light" dir="rtl" lang="ar">
       <head />
 
       <body
