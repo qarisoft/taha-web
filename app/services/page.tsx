@@ -95,7 +95,7 @@ function CardComponent({
           />
           <div className="-translate-y-4">{title}</div>
         </div>
-        <div className="flip-card-back rounded-md flex items-center justify-center text-gray-700 font-semibold bg-[url(/back2.png)] bg-cover">
+        <div className="flip-card-back rounded-md flex items-center justify-center text-gray-700 font-semibold bg-[url(https://qarisoft.github.io/taha-web/back2.png)] bg-cover">
           {children}
         </div>
       </div>
